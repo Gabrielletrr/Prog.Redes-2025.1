@@ -1,1 +1,0 @@
-print ("Calcular área do circulo ")
