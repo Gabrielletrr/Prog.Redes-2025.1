@@ -1,4 +1,4 @@
-
+#média do IFRN
 
 
 n1=int(input("Digite a nota do 1° bimestre:"))
