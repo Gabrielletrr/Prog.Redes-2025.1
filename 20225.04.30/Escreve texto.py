@@ -1,4 +1,4 @@
-# nome = "Gabrielle Torres"
+#Imprimir nome 
 
 nome=input("Digite seu nome:")
 

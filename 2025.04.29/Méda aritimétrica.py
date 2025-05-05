@@ -1,3 +1,5 @@
+#Média aritmetrica
+
 print("Média aritmetrica")
 
 n1=6.5
