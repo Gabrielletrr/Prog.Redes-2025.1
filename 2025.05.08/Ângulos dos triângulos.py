@@ -15,16 +15,16 @@ ang2=int(input("Digite o 2° ângulo:"))
 
 ang3=int(input("Digite o 3° ângulo:"))
 
-if (ang1<=0) or (ang2<=0) or (ang3<=0):
+if (ang1 <= 0 ) or (ang2 <= 0) or (ang3 <=0 ):
   sys.exit('ERRO: Um ou mais ãngulos não são positivos')
 
 if ang1 + ang2 + ang3 != 180:
   sys.exit('ERRO: A soma dos ãngulos deve ser 180')
 
-if ang1 == 90 or ang2==90 or ang3== 90:
+if ang1 == 90 or ang2 == 90 or ang3 == 90:
   print("O triângulo é retângulo")
 
-elif ang1>90 or ang2>90 or ang3>90:
+elif ang1 > 90 or ang2 > 90 or ang3 > 90:
   print("O triângulo é obtusângulo")
 
 else:
