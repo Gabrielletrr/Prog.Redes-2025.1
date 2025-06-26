@@ -25,13 +25,16 @@ else:
     if n < 0 and n > 100:
         sys.exit('Digite um numero maior que 0 e que seja até 100...')
 
-lista_sorteio = []
-lista_raiz = []
+lista_sorteio = list()
+lista_raiz = list()
 
-for _ in range(n):
-    sorteio = random.randint(0, 1000)
-    lista_sorteio.append(sorteio)
-    raiz_quadrada = sorteio ** 0.5
-    lista_raiz.append(raiz_quadrada)
+i = 1
+while i <= n:
+   sorteio = random.randint(0, 1000)
+   if sorteio not in lista_sorteio:
+      lista_sorteio.append(sorteio)
+      i += 1
+      raiz_quadrada = sorteio ** 0.5
+      lista_raiz.append(raiz_quadrada)
 print(f'Números sorteados {lista_sorteio}')
 print(f'Raiz quadrada dos números {lista_raiz}')
